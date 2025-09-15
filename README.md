@@ -76,23 +76,25 @@ This builds **metacognitive skills** essential for independent programming.
 
 **Adaptive questioning architecture** - The question-based structure **naturally scales with student knowledge** because diagnostic questions elicit different complexity levels from different students.
 
-**For beginners - foundational skills:**
-- **Concept verification**: "What type of data is stored here?"
-- **Code comprehension**: "Can you trace through each line?"
-- **Basic techniques**: Print statements, reading error messages
-- **Enhanced encouragement**: More validation and term explanations
+**For beginners - foundational skill building:**
+- **Concept verification**: "What type of data is stored in this variable?" "What does this error message tell you?"
+- **Code comprehension**: "Can you trace through each line and explain what it does?"
+- **Systematic approaches**: Emphasize basic debugging techniques like print statements and reading error messages carefully
+- **Enhanced encouragement**: More explicit validation of partial progress and explanation of technical terms
+
 
 **For advanced learners - higher-order thinking:**
-- **Critical analysis**: "What assumptions is your code making?"
-- **Strategic debugging**: "What's the most efficient approach here?"
-- **Independent analysis**: Less scaffolding, higher expectations
-- **Professional practices**: Advanced debugging and testing strategies
+- **Critical analysis**: "What assumptions is your code making about the input data?" "What edge cases might cause problems?"
+- **Strategic debugging**: "How would you systematically test this function?" "What's the most efficient debugging approach here?"
+- **Independent problem-solving**: Less scaffolding, higher expectation of self-directed analysis and solution pathfinding
+- **Professional practices**: Introduction of advanced debugging techniques, testing strategies, and code review methodologies
+
 
 **Universal principles that ensure success:**
-- **Question-based discovery** works at any knowledge level
+- **Question-based discovery** works effectively regardless of prior programming knowledge
 - **Breaking complex problems down** prevents cognitive overload
-- **Focus on thinking processes** builds transferable skills
-- **Systematic approaches** develop professional habits
+- **Focus on thinking processes** builds transferable skills that apply across programming languages and contexts
+- **Consistent encouragement of systematic approaches** develops professional debugging habits
 
 **Key pedagogical insight**: Rather than requiring separate prompts for different skill levels, this single prompt **adapts organically through responsive questioning** because it focuses on thinking processes rather than delivering information. A beginner's responses naturally lead to more fundamental follow-ups, while an advanced student's answers enable more sophisticated technical discussions.
 
