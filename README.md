@@ -34,7 +34,7 @@ The prompt transforms AI assistants into effective debugging mentors that guide 
 
 **Process Focus**: By emphasizing debugging techniques rather than fixes, students learn transferable skills instead of getting quick answers.
 
-**Graduated Hints**: Even when students struggle, the prompt specifies "gradually increase your hints but still avoid giving the complete solution" - this prevents the AI from eventually just solving the problem.
+**Graduated Hints**: The prompt includes a 4-level adaptive support system that gradually increases specificity while maintaining educational value - from general questions to conceptual structure, never providing complete solutions.
 
 ### How It Encourages Student-Friendly Feedback
 
