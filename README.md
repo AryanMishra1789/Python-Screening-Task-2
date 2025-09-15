@@ -1,4 +1,4 @@
-# Python-Screening-Task-2 AI Debugging Assistant Prompt
+# Python Screening Task 2
 
 # AI Debugging Assistant Prompt
 
@@ -17,7 +17,7 @@ The prompt transforms AI assistants into effective debugging mentors that guide 
 
 1. Copy the content from `prompt.txt`
 2. Provide this prompt to any AI assistant (ChatGPT, Claude, Bard, etc.) at the beginning of your session
-3. Students can then share their buggy Python code and receive guided debugging assistance
+3. Share the buggy Python code and receive guided debugging assistance
 4. The AI will follow the guidelines to provide educational support without revealing solutions
 
 ## Design Explanation
@@ -46,49 +46,49 @@ The prompt transforms AI assistants into effective debugging mentors that guide 
 
 **Engagement Maintenance**: Ending with questions keeps students actively involved in problem-solving rather than passively receiving information.
 
-## Reasoning
+## Required Reasoning
 
 ### What tone and style should the AI use when responding?
 
-**Encouraging and collaborative** - Because debugging is inherently challenging and students often feel frustrated when their code doesn't work. By positioning the AI as a supportive study partner rather than an authority figure, we reduce intimidation and create psychological safety for learning.
+**Encouraging and collaborative** - The AI should act as a **supportive study partner**, not an authority figure. This approach reduces intimidation and creates a **psychologically safe learning environment** where students feel comfortable asking questions and admitting confusion without fear of judgment.
 
-**Patient but intellectually engaging** - The AI should acknowledge that debugging requires persistence while maintaining academic rigor. This balance is crucial because students need both emotional support and intellectual challenge to develop genuine problem-solving skills. The tone should communicate that debugging is a core programming competency, not just fixing broken code.
+**Patient but intellectually engaging** - The ideal balance combines **emotional support with academic rigor**. Students need encouragement when debugging becomes frustrating, but they also require intellectual challenge to develop genuine problem-solving skills. The tone should communicate that **debugging is a core programming competency**, not just fixing broken code, which builds confidence in tackling complex problems independently.
 
-**Professional mentorship style** - Similar to how experienced programmers guide junior developers, the AI should demonstrate problem-solving thinking processes while encouraging student participation. This prepares students for real-world collaborative debugging scenarios.
+**Professional mentorship style** - Similar to how experienced programmers guide junior developers in real workplaces, the AI should **demonstrate systematic thinking processes** while encouraging active student participation. This prepares students for collaborative debugging scenarios they'll encounter in their careers.
 
 ### How should the AI balance between identifying bugs and guiding the student?
 
-**Strategic withholding of direct answers** - The most critical balance is giving enough guidance to prevent complete frustration while withholding enough information to force active thinking. This requires the AI to ask targeted diagnostic questions that reveal student understanding gaps without immediately solving the problem.
+**Strategic questioning over direct answers** - The most critical balance involves **giving enough guidance to prevent frustration while withholding enough information to force active thinking**. This requires asking targeted diagnostic questions that reveal understanding gaps without immediately solving the problem. For example: "What happens when you trace through this loop?" instead of "Your loop condition is wrong."
 
-**Metacognitive development** - Rather than just fixing code, the AI should help students develop debugging strategies they can apply independently. For example, teaching systematic approaches like "trace variable values," "check boundary conditions," or "verify assumptions" builds transferable skills.
+**Process-focused learning** - Rather than just fixing code, the AI should help students develop **transferable debugging strategies** they can apply independently: systematic variable tracing, assumption verification, boundary condition checking, and error message interpretation. This builds **metacognitive skills** essential for independent programming.
 
-**Graduated scaffolding approach** - Start with broad conceptual questions, then narrow focus based on student responses. If a student answers "I don't know" to "What should happen in this loop?", the AI can then ask more specific questions about loop components. This prevents both overwhelming beginners and under-challenging advanced students.
+**Graduated scaffolding approach** - Start with broad conceptual questions, then **progressively narrow focus based on student responses**. If a student answers "I don't know" to "What should happen in this loop?", the AI can ask more specific questions about individual loop components. This prevents overwhelming beginners while avoiding under-challenging advanced students.
 
-**Evidence-based support** - The AI should ask students to provide evidence for their reasoning ("What makes you think the error is here?") rather than guessing. This builds analytical thinking essential for complex debugging scenarios.
+**Evidence-based reasoning** - The AI should consistently ask students to **provide evidence for their thinking** ("What makes you think the error is here?" or "Show me how you traced through this section") rather than allowing pure guessing. This develops the analytical thinking patterns essential for complex debugging scenarios.
 
 ### How would I adapt this prompt for beginner vs. advanced learners?
 
-**Adaptive questioning depth** - The prompt's question-based structure naturally scales because the same diagnostic questions elicit different levels of response from different students.
+**Adaptive questioning architecture** - The prompt's question-based structure **naturally scales with student knowledge** because the same diagnostic questions elicit different complexity levels of responses from different students. This creates organic differentiation without requiring separate prompts.
 
-**For beginners, focus on fundamental understanding:**
-- "What type of data is stored in this variable?" (checking basic concept grasp)
-- "What does this error message tell you?" (developing error interpretation skills)
-- "Can you trace through each line and tell me what it does?" (building code reading skills)
-- More explicit encouragement and validation of partial progress
+**For beginners - foundational skill building:**
+- **Concept verification**: "What type of data is stored in this variable?" "What does this error message tell you?"
+- **Code comprehension**: "Can you trace through each line and explain what it does?"
+- **Systematic approaches**: Emphasize basic debugging techniques like print statements and reading error messages carefully
+- **Enhanced encouragement**: More explicit validation of partial progress and explanation of technical terms
 
-**For advanced learners, emphasize higher-order thinking:**
-- "What assumptions is your code making about the input data?" (edge case thinking)
-- "How would you systematically test this function?" (testing strategy development)
-- "What would be the most efficient way to debug this?" (debugging methodology)
-- Less hand-holding, more expectation of independent analysis
+**For advanced learners - higher-order thinking:**
+- **Critical analysis**: "What assumptions is your code making about the input data?" "What edge cases might cause problems?"
+- **Strategic debugging**: "How would you systematically test this function?" "What's the most efficient debugging approach here?"
+- **Independent problem-solving**: Less scaffolding, higher expectation of self-directed analysis and solution pathfinding
+- **Professional practices**: Introduction of advanced debugging techniques, testing strategies, and code review methodologies
 
-**Universal scaffolding principles:**
-- All students benefit from breaking complex problems into smaller components
-- Question-based discovery works regardless of prior knowledge
-- Encouraging persistence and systematic thinking applies across skill levels
-- Focus on debugging process over specific syntax helps everyone develop transferable skills
+**Universal scaffolding principles that ensure success:**
+- **Question-based discovery** works effectively regardless of prior programming knowledge
+- **Breaking complex problems into manageable components** helps learners at all levels avoid cognitive overload
+- **Focus on thinking processes rather than syntax** builds transferable skills that apply across programming languages and contexts
+- **Consistent encouragement of systematic approaches** develops professional debugging habits
 
-**Key insight**: Rather than having separate prompts for different levels, this single prompt adapts organically because it focuses on thinking processes rather than delivering information. A beginner's answers to diagnostic questions will naturally lead to more basic follow-ups, while an advanced student's responses will lead to more sophisticated discussions.
+**Key pedagogical insight**: Rather than requiring separate prompts for different skill levels, this single prompt **adapts organically through responsive questioning** because it focuses on thinking processes rather than delivering information. A beginner's responses naturally lead to more fundamental follow-ups, while an advanced student's answers enable more sophisticated technical discussions.
 
 ## Key Features
 
